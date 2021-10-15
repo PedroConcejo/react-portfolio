@@ -1,10 +1,13 @@
-import React, { useState } from "react";
+import React, { useState, useRef } from "react";
+
+import emailjs from 'emailjs-com';
 
 const Contact = ({ data }) => {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [subject, setSubject] = useState("");
   const [message, setMessage] = useState("");
+  const form = useRef();
 
   if (data) {
     var contactName = data.name;
@@ -17,14 +20,15 @@ const Contact = ({ data }) => {
     var contactMessage = data.contactmessage;
   }
 
-  const submitForm = () => {
-    window.open(
-      `mailto:${contactEmail}?subject=${encodeURIComponent(
-        subject
-      )}&body=${encodeURIComponent(name)} (${encodeURIComponent(
-        email
-      )}): ${encodeURIComponent(message)}`
-    );
+  const submitForm = (e) => {
+    e.preventDefault();
+
+    emailjs.sendForm('service_lb14kuv', 'template_hnd92zk', form.current, 'user_bs1aoBlRQcOuqiO8xxezB')
+      .then((result) => {
+        alert("Your email has been sent successfully");
+      }, (error) => {
+          alert("We have had problems sending the email. You can contact pedroconcejovera@gmail.com")
+      });
   };
 
   return (
@@ -43,7 +47,7 @@ const Contact = ({ data }) => {
 
       <div className="row">
         <div className="eight columns">
-          <form onSubmit={submitForm}>
+          <form ref={form} onSubmit={submitForm}>
             <fieldset>
               <div>
                 <label htmlFor="contactName">
