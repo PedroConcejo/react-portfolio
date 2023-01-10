@@ -1,6 +1,6 @@
 import React, { useState, useRef } from "react";
 
-import emailjs from 'emailjs-com';
+import emailjs from "emailjs-com";
 
 const Contact = ({ data }) => {
   const [name, setName] = useState("");
@@ -23,12 +23,23 @@ const Contact = ({ data }) => {
   const submitForm = (e) => {
     e.preventDefault();
 
-    emailjs.sendForm('service_lb14kuv', 'template_hnd92zk', form.current, 'user_bs1aoBlRQcOuqiO8xxezB')
-      .then((result) => {
-        alert("Your email has been sent successfully");
-      }, (error) => {
-          alert("We have had problems sending the email. You can contact pedroconcejovera@gmail.com")
-      });
+    emailjs
+      .sendForm(
+        "service_lb14kuv",
+        "template_hnd92zk",
+        form.current,
+        "f8n18j_sEK1lo7bh5"
+      )
+      .then(
+        (result) => {
+          alert("Your email has been sent successfully");
+        },
+        (error) => {
+          alert(
+            "We have had problems sending the email. You can contact pedroconcejovera@gmail.com"
+          );
+        }
+      );
   };
 
   return (

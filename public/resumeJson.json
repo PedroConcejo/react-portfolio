@@ -1,175 +1,201 @@
 {
-    "meta": {
-      "theme": "elegant"
+  "meta": {
+    "theme": "elegant"
+  },
+  "basics": {
+    "name": "Pedro Concejo",
+    "label": "Web Developer",
+    "image": "https://firebasestorage.googleapis.com/v0/b/recuerdos-33bd2.appspot.com/o/profile.jpg?alt=media&token=81296493-5011-4527-80eb-1fdbf9debe98",
+    "summary": "I've been coding for over 3 years now. As a Full Stack developer I've worked with large corporations to help build & scale their companies. Along the journey I realised my passion existed in designing and creating things that would make the lives of others easier.",
+    "website": "https://pedroconcejo.netlify.app/",
+    "email": "pedroconcejovera@gmail.com",
+    "location": {
+      "city": "Lanzarote",
+      "countryCode": "LPA"
     },
-    "basics": {
-      "name": "Pedro Concejo",
-      "label": "Web Developer",
-      "image": "https://firebasestorage.googleapis.com/v0/b/recuerdos-33bd2.appspot.com/o/profile.jpg?alt=media&token=81296493-5011-4527-80eb-1fdbf9debe98",
-      "summary": "I've been coding for over 3 years now. As a Full Stack developer I've worked with large corporations to help build & scale their companies. Along the journey I realised my passion existed in designing and creating things that would make the lives of others easier.",
-      "website": "https://pedroconcejo.netlify.app/",
-      "email": "pedroconcejovera@gmail.com",
-      "location": {
-        "city": "Winona",
-        "countryCode": "MN"
+    "profiles": [
+      {
+        "username": "pedroconcejovera",
+        "url": "https://linkedin.com/in/pedroconcejovera",
+        "network": "linkedin"
       },
-      "profiles": [
-        {
-          "username": "pedroconcejovera",
-          "url": "https://linkedin.com/in/pedroconcejovera",
-          "network": "linkedin"
-        },
-        {
-          "url": "https://github.com/PedroConcejo",
-          "username": "PedroConcejo",
-          "network": "github"
-        }
+      {
+        "url": "https://github.com/PedroConcejo",
+        "username": "PedroConcejo",
+        "network": "github"
+      }
+    ]
+  },
+  "education": [
+    {
+      "endDate": "2011-07-12",
+      "startDate": "2008-09-12",
+      "area": "Physical Education",
+      "studyType": "Bachelor's Degree",
+      "institution": "University of Valladolid - Spain"
+    },
+    {
+      "endDate": "2015-07-12",
+      "startDate": "2013-09-12",
+      "area": "Elementary Education",
+      "studyType": "Bachelor's Degree",
+      "institution": "University of Valladolid - Spain"
+    },
+    {
+      "endDate": "2015-07-12",
+      "startDate": "2013-09-12",
+      "area": "Telecommunications and computer systems",
+      "studyType": "Associate Degree",
+      "institution": "Cristo Rey Polytechnic Institute - Spain"
+    },
+    {
+      "endDate": "2020-02-12",
+      "startDate": "2020-06-12",
+      "area": "Full Stack Developer",
+      "studyType": "Bootcamp",
+      "institution": "Reboot Academy - Spain"
+    }
+  ],
+  "skills": [
+    {
+      "keywords": ["React", "Vue", "Node", "Express"],
+      "level": "Junior/Mid",
+      "name": "Javascript"
+    },
+    {
+      "keywords": ["Laravel", "Fat-Free", "Zend"],
+      "level": "Junior/Mid",
+      "name": "Php"
+    },
+    {
+      "keywords": ["Bootstrap", "Vuetify"],
+      "level": "Junior/Mid",
+      "name": "Css"
+    },
+    {
+      "keywords": ["MongoDb", "PostgreSQL", "Firebase"],
+      "level": "Junior/Mid",
+      "name": "Database"
+    },
+    {
+      "keywords": ["Github", "Git", "Postman", "SoapUI", "Figma"],
+      "level": "Junior/Mid",
+      "name": "Others"
+    }
+  ],
+  "work": [
+    {
+      "summary": "Management and development Alithya products.",
+      "website": "https://www.alithya.com/en",
+      "name": "Alithya",
+      "location": "Spain",
+      "position": "Full Stack Developer",
+      "startDate": "2022-02-28",
+      "highlights": ["Javascript", "React", "HTML", "Css", "Node", "Postman"]
+    },
+    {
+      "summary": "Management and development of the pepephone and pepeenergy database and website.",
+      "website": "https://artek.es",
+      "name": "Artek Soluciones informáticas",
+      "location": "Spain",
+      "position": "Full Stack Developer",
+      "startDate": "2020-09-01",
+      "endDate": "2021-08-01",
+      "highlights": [
+        "Javascript",
+        "Php",
+        "HTML",
+        "Css",
+        "PostgreSQL",
+        "Fat-Free",
+        "Zend"
       ]
     },
-    "education": [
-      {
-        "endDate": "2011-07-12",
-        "startDate": "2008-09-12",
-        "area": "Physical Education",
-        "studyType": "Bachelor's Degree",
-        "institution": "University of Valladolid - Spain"
-      },
-      {
-        "endDate": "2015-07-12",
-        "startDate": "2013-09-12",
-        "area": "Elementary Education",
-        "studyType": "Bachelor's Degree",
-        "institution": "University of Valladolid - Spain"
-      },
-      {
-        "endDate": "2015-07-12",
-        "startDate": "2013-09-12",
-        "area": "Telecommunications and computer systems",
-        "studyType": "Associate Degree",
-        "institution": "Cristo Rey Polytechnic Institute - Spain"
-      },
-      {
-        "endDate": "2020-02-12",
-        "startDate": "2020-06-12",
-        "area": "Full Stack Developer",
-        "studyType": "Bootcamp",
-        "institution": "Reboot Academy - Spain"
-      }
-    ],
-    "skills": [
-      {
-        "keywords": [
-          "React", "Vue","Node","Express"
-        ],
-        "level": "Junior/Mid",
-        "name": "Javascript"
-      },
-      {
-        "keywords": ["Laravel", "Fat-Free", "Zend"],
-        "level": "Junior/Mid",
-        "name": "Php"
-      },
-      {
-        "keywords": ["Bootstrap", "Vuetify"],
-        "level": "Junior/Mid",
-        "name": "Css"
-      },
-      {
-        "keywords": ["MongoDb", "PostgreSQL", "Firebase"],
-        "level": "Junior/Mid",
-        "name": "Database"
-      },
-      {
-        "keywords": ["Github", "Git", "Postman", "SoapUI", "Figma"],
-        "level": "Junior/Mid",
-        "name": "Others"
-      }
-    ],
-    "work": [
-        {
-            "summary": "Management and development of the pepephone and pepeenergy database and website.",
-            "website": "https://artek.es",
-            "name": "Artek Soluciones informáticas",
-            "location": "Spain",
-        "position": "Full Stack Developer",
-        "startDate": "2020-09-01",
-        "endDate": "2021-08-01",
-        "highlights": ["Javascript", "Php", "HTML", "Css", "PostgreSQL", "Fat-Free", "Zend"]
+    {
+      "summary": "Teacher of students with social problems.",
+      "website": "https://radioecca.org",
+      "name": "RadioEcca",
+      "location": "Spain",
+      "position": "Teacher",
+      "startDate": "2018-09-01",
+      "endDate": "2019-08-01",
+      "highlights": ["Support for students with social problems."]
     },
     {
-        "summary": "Teacher of students with social problems.",
-        "website": "https://radioecca.org",
-        "name": "RadioEcca",
-        "location": "Spain",
-        "position": "Teacher",
-        "startDate": "2018-09-01",
-        "endDate": "2019-08-01",
-        "highlights": [
-            "Support for students with social problems."
-        ]
+      "highlights": ["Lego", "Arduino"],
+      "summary": "Teaching in the design, construction and programming of robots.",
+      "website": "https://mastermindactivities.com/",
+      "name": "Robotics Canarias",
+      "position": "Teacher",
+      "startDate": "2017-09-01",
+      "endDate": "2018-08-01"
     },
     {
-        "highlights": [
-            "Lego","Arduino"
-        ],
-        "summary": "Teaching in the design, construction and programming of robots.",
-        "website": "https://mastermindactivities.com/",
-        "name": "Robotics Canarias",
-        "position": "Teacher",
-        "startDate": "2017-09-01",
-        "endDate": "2018-08-01"
+      "highlights": ["Spanish", "Mathematics", "Socials", "Physical Education"],
+      "pinned": true,
+      "summary": "Spanish assistant teacher.",
+      "website": "https://stanfordes.seattleschools.org/",
+      "name": "John Stanford International Elementary",
+      "position": "Teacher",
+      "startDate": "2016-09-08",
+      "endDate": "2017-08-01"
     },
     {
-        "highlights": [
-            "Spanish", "Mathematics", "Socials", "Physical Education"
-        ],
-        "pinned": true,
-        "summary": "Spanish assistant teacher.",
-        "website": "https://stanfordes.seattleschools.org/",
-        "name": "John Stanford International Elementary",
-        "position": "Teacher",
-        "startDate": "2016-09-08",
-        "endDate": "2017-08-01"
+      "highlights": [
+        "Javascript",
+        "Php",
+        "HTML",
+        "Css",
+        "PostgreSQL",
+        "Mongo",
+        "ExpressJs",
+        "NodeJs",
+        "Laravel",
+        "Vue",
+        "React",
+        "Bootstrap",
+        "Vuetify",
+        "Firebase"
+      ],
+      "summary": "Learning and creating projects day by day.",
+      "website": "https://pedroconcejo.netlify.app",
+      "name": "PedroConcejo",
+      "position": "Full Stack Developer",
+      "startDate": "2020-07-01"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Sports"
     },
-      {
-          "highlights": [
-              "Javascript", "Php", "HTML", "Css", "PostgreSQL", "Mongo", "ExpressJs", "NodeJs", "Laravel", "Vue", "React", "Bootstrap", "Vuetify", "Firebase"
-            ],
-            "summary": "Learning and creating projects day by day.",
-            "website": "https://pedroconcejo.netlify.app",
-            "name": "PedroConcejo",
-            "position": "Full Stack Developer",
-            "startDate": "2020-07-01"
-        }
-    ],
-    "interests": [
-        {
-            "name": "Sports"
-        },
-        {
-            "name": "Music"
-        },
-        {
-            "name": "Reading / Series"
-        },
-        {
-            "name": "VideoGames"
-        }
-    ],
-    "volunteer": [{
-        "organization": "Wallingford Boys & Girls Club",
-        "position": "Volunteer",
-        "url": "https://positiveplace.org/clubs/wallingford/",
-        "startDate": "2016-11-01",
-        "endDate": "2017-08-01",
-        "summary": "Support for Hispanic children"
-      }],
-      "languages": [{
-        "language": "Spanish",
-        "fluency": "Native speaker"
-      },
-      {
-        "language": "English",
-        "fluency": "B2 Level"
-      }]
+    {
+      "name": "Music"
+    },
+    {
+      "name": "Reading / Series"
+    },
+    {
+      "name": "VideoGames"
+    }
+  ],
+  "volunteer": [
+    {
+      "organization": "Wallingford Boys & Girls Club",
+      "position": "Volunteer",
+      "url": "https://positiveplace.org/clubs/wallingford/",
+      "startDate": "2016-11-01",
+      "endDate": "2017-08-01",
+      "summary": "Support for Hispanic children"
+    }
+  ],
+  "languages": [
+    {
+      "language": "Spanish",
+      "fluency": "Native speaker"
+    },
+    {
+      "language": "English",
+      "fluency": "B2 Level"
+    }
+  ]
 }
