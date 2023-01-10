@@ -7,12 +7,12 @@
     "bio": "Hi there! I am Pedro! You might also can know me as PedroDev. I've been coding for over 3 years now. As a Full Stack developer I've worked with large corporations to help build & scale their companies. Along the journey I realised my passion existed in designing and creating things that would make the lives of others easier.",
     "contactmessage": "Get in touch with me!",
     "email": "pedroconcejovera@gmail.com",
-    "phone": "+1 (507) 470-2095",
+    "phone": "+34 692 89 04 64",
     "address": {
-      "street": "United States Of America",
-      "city": "Winona",
-      "state": "Minnesota",
-      "zip": "55987"
+      "street": "Spain",
+      "city": "Lanzarote",
+      "state": "Las Palmas",
+      "zip": "35508"
     },
     "website": "https://www.papareact.com/course",
     "resumedownload": "https://registry.jsonresume.org/PedroConcejo",
@@ -69,6 +69,12 @@
     ],
     "work": [
       {
+        "company": "Alithya",
+        "title": "Full Stack Developer",
+        "years": "2022-",
+        "description": "Management and development Alithya products."
+      },
+      {
         "company": "Artek Soluciones informáticas",
         "title": "Full Stack Developer",
         "years": "2020-2021",
@@ -96,7 +102,7 @@
     "proficiency": [
       {
         "name": "Javascript",
-        "framework": ["React", "Vue","Node","Express"]
+        "framework": ["React", "Vue", "Node", "Express"]
       },
       {
         "name": "Php",
